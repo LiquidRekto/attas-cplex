@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "mnJbkpOtbfKKNwCWNYKur/ap43nlFlkOndhCpIcrKurwiw7Eh5MCpQraW+A7yCzY7EgZAjh7S4cG52aF1WWuBw==",
+  "success": true,
+  "projectFilePath": "D:\\LAB DESK\\Test\\ATTAS_CPLEX\\cplex lonely\\cplex lonely.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Admin\\.nuget\\packages\\fastexcel\\3.0.13\\fastexcel.3.0.13.nupkg.sha512"
+  ],
+  "logs": []
+}

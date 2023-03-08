@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ATTAS_CPLEX", "ATTAS_CPLEX\ATTAS_CPLEX.csproj", "{737C02D5-6188-42E0-B707-D705532174D4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "cplex lonely", "cplex lonely\cplex lonely.csproj", "{22ED47CC-7D9D-4062-9841-236C0749CFC0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{737C02D5-6188-42E0-B707-D705532174D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{737C02D5-6188-42E0-B707-D705532174D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{737C02D5-6188-42E0-B707-D705532174D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{737C02D5-6188-42E0-B707-D705532174D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22ED47CC-7D9D-4062-9841-236C0749CFC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22ED47CC-7D9D-4062-9841-236C0749CFC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22ED47CC-7D9D-4062-9841-236C0749CFC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22ED47CC-7D9D-4062-9841-236C0749CFC0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7BD91AD5-6877-4D73-AB42-3C599C150BC5}
+	EndGlobalSection
+EndGlobal
