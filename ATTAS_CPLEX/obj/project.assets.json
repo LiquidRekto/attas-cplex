@@ -1,41 +1,11 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {
-      "FastExcel/3.0.13": {
-        "type": "package",
-        "compile": {
-          "lib/netstandard2.0/FastExcel.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/FastExcel.dll": {
-            "related": ".xml"
-          }
-        }
-      }
-    }
+    "net6.0": {}
   },
-  "libraries": {
-    "FastExcel/3.0.13": {
-      "sha512": "v0gF9hMHBiAucW4xWXbB/KGQurTTbSCSQY2Y9C9oVNlR+9QCEyWAXhHtG+LhpLZPq+BML8IXYqP0Mkdpzj9TKQ==",
-      "type": "package",
-      "path": "fastexcel/3.0.13",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "fastexcel.3.0.13.nupkg.sha512",
-        "fastexcel.nuspec",
-        "lib/netstandard2.0/FastExcel.dll",
-        "lib/netstandard2.0/FastExcel.xml"
-      ]
-    }
-  },
+  "libraries": {},
   "projectFileDependencyGroups": {
-    "net6.0": [
-      "FastExcel >= 3.0.13"
-    ]
+    "net6.0": []
   },
   "packageFolders": {
     "C:\\Users\\Admin\\.nuget\\packages\\": {},
@@ -80,12 +50,6 @@
     "frameworks": {
       "net6.0": {
         "targetAlias": "net6.0",
-        "dependencies": {
-          "FastExcel": {
-            "target": "Package",
-            "version": "[3.0.13, )"
-          }
-        },
         "imports": [
           "net461",
           "net462",

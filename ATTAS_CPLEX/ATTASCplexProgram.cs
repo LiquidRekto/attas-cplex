@@ -9,18 +9,70 @@ using ILOG.CPLEX;
 
 namespace ATTAS_CPLEX
 {
-    public static class ATTASCplexProgram
+    public enum StrategyOption
     {
-        public static void Execute(Data data)
+        WeightedSum = 1,
+        ConstraintProgramming = 2,
+        CompromisedProgramming = 3
+    }
+
+    public class ATTASCplexProgram : Model
+    {
+        public bool[] objectiveConfig { get; set; } = new bool[8];
+        public StrategyOption strategyOption { get; set; }
+        public int[] objectiveWeight { get; set; } = new int[8];
+
+        public double maxSearchingTime { get; set; } = UInt64.MaxValue;
+
+        public ATTASCplexProgram() : base() { 
+            
+        }
+
+        public void activateFullObjective()
+        {
+            objectiveConfig = new bool[8] { true, true, true, true, true, true, true, true };
+            objectiveWeight = new int[8] { 1, 1, 1, 1, 1, 1, 1, 1 };
+        }
+
+        private bool areObjectivesEnabled()
+        {
+            int output = 0;
+            for (int i = 0; i < objectiveConfig.Length; i++)
+            {
+                if(objectiveConfig[i]) output++;
+            }
+            if (output > 0)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+
+        public override List<List<(int, int)>> solve()
+        {
+            if (areObjectivesEnabled())
+            {
+                return base.solveWithObjectives(objectiveConfig, objectiveWeight, (int)strategyOption, maxSearchingTime);
+            }
+            else
+            {
+                Console.WriteLine("NO OBJECTIVES!");
+                return base.solveWithConstraintOnly(maxSearchingTime);
+            }
+
+        }
+
+
+        /*
+        public void Execute(Data data)
         {
             if (!data.isInitialzied())
             {
                 throw new System.Exception("Data is not initialized!");
             }
-
-            IModeler model;
-
-            Cplex cp = new Cplex();
 
             // objectives
             /*
@@ -57,7 +109,6 @@ namespace ATTAS_CPLEX
                 weighted22.Add(cp.AddEq(obj, cp.Max(subjDiversity.ToArray())));
             }
             obj2.Expr = cp.Sum(weighted22.ToArray());
-            */
             // Objective 3
             IObjective obj3 = cp.Minimize();
             obj3.Name = "QuotaReached";
@@ -130,6 +181,7 @@ namespace ATTAS_CPLEX
 
             // Adding to model
             cp.Add(cp.Maximize(cp.StaticLex(objectivesArr)));
+        
 
             // subjects to (constraints)
 
@@ -233,5 +285,6 @@ namespace ATTAS_CPLEX
                 }
             }
         }
+        */
     }
 }

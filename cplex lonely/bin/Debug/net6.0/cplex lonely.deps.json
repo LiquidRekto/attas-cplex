@@ -8,20 +8,22 @@
     ".NETCoreApp,Version=v6.0": {
       "cplex lonely/1.0.0": {
         "dependencies": {
-          "FastExcel": "3.0.13",
+          "Microsoft.Office.Interop.Excel": "15.0.4795.1001",
           "ATTAS_CPLEX": "1.0.0.0",
           "ILOG.Concert": "22.1.0.0",
-          "ILOG.CPLEX": "22.1.0.0"
+          "ILOG.CPLEX": "22.1.0.0",
+          "Microsoft.Vbe.Interop": "15.0.0.0",
+          "OFFICE": "15.0.0.0"
         },
         "runtime": {
           "cplex lonely.dll": {}
         }
       },
-      "FastExcel/3.0.13": {
+      "Microsoft.Office.Interop.Excel/15.0.4795.1001": {
         "runtime": {
-          "lib/netstandard2.0/FastExcel.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
+          "lib/netstandard2.0/Microsoft.Office.Interop.Excel.dll": {
+            "assemblyVersion": "15.0.0.0",
+            "fileVersion": "15.0.4795.1000"
           }
         }
       },
@@ -48,6 +50,22 @@
             "fileVersion": "22.1.0.0"
           }
         }
+      },
+      "Microsoft.Vbe.Interop/15.0.0.0": {
+        "runtime": {
+          "Microsoft.Vbe.Interop.dll": {
+            "assemblyVersion": "15.0.0.0",
+            "fileVersion": "15.0.4561.1000"
+          }
+        }
+      },
+      "OFFICE/15.0.0.0": {
+        "runtime": {
+          "OFFICE.DLL": {
+            "assemblyVersion": "15.0.0.0",
+            "fileVersion": "15.0.4613.1000"
+          }
+        }
       }
     }
   },
@@ -57,12 +75,12 @@
       "serviceable": false,
       "sha512": ""
     },
-    "FastExcel/3.0.13": {
+    "Microsoft.Office.Interop.Excel/15.0.4795.1001": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-v0gF9hMHBiAucW4xWXbB/KGQurTTbSCSQY2Y9C9oVNlR+9QCEyWAXhHtG+LhpLZPq+BML8IXYqP0Mkdpzj9TKQ==",
-      "path": "fastexcel/3.0.13",
-      "hashPath": "fastexcel.3.0.13.nupkg.sha512"
+      "sha512": "sha512-cuvqi/U5MYSM0gvR2l90q0m/urRgmg69EiwP5VWp1RcaJ0YT5G26Va5LaOZ3KJFc22FNihS5CUjeePUp2YpGQA==",
+      "path": "microsoft.office.interop.excel/15.0.4795.1001",
+      "hashPath": "microsoft.office.interop.excel.15.0.4795.1001.nupkg.sha512"
     },
     "ATTAS_CPLEX/1.0.0.0": {
       "type": "reference",
@@ -75,6 +93,16 @@
       "sha512": ""
     },
     "ILOG.CPLEX/22.1.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Vbe.Interop/15.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "OFFICE/15.0.0.0": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""

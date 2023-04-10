@@ -3,8 +3,6 @@ D:\LAB DESK\Test\ATTAS_CPLEX\ATTAS_CPLEX\bin\Debug\net6.0\ATTAS_CPLEX.dll
 D:\LAB DESK\Test\ATTAS_CPLEX\ATTAS_CPLEX\bin\Debug\net6.0\ATTAS_CPLEX.pdb
 D:\LAB DESK\Test\ATTAS_CPLEX\ATTAS_CPLEX\bin\Debug\net6.0\ILOG.Concert.dll
 D:\LAB DESK\Test\ATTAS_CPLEX\ATTAS_CPLEX\bin\Debug\net6.0\ILOG.CPLEX.dll
-D:\LAB DESK\Test\ATTAS_CPLEX\ATTAS_CPLEX\bin\Debug\net6.0\ILOG.Concert.xml
-D:\LAB DESK\Test\ATTAS_CPLEX\ATTAS_CPLEX\bin\Debug\net6.0\ILOG.CPLEX.xml
 D:\LAB DESK\Test\ATTAS_CPLEX\ATTAS_CPLEX\obj\Debug\net6.0\ATTAS_CPLEX.csproj.AssemblyReference.cache
 D:\LAB DESK\Test\ATTAS_CPLEX\ATTAS_CPLEX\obj\Debug\net6.0\ATTAS_CPLEX.GeneratedMSBuildEditorConfig.editorconfig
 D:\LAB DESK\Test\ATTAS_CPLEX\ATTAS_CPLEX\obj\Debug\net6.0\ATTAS_CPLEX.AssemblyInfoInputs.cache

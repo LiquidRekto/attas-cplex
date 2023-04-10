@@ -7,15 +7,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="FastExcel" Version="3.0.13" />
-  </ItemGroup>
-
-  <ItemGroup>
     <Reference Include="ILOG.Concert">
-      <HintPath>C:\Program Files\IBM\ILOG\CPLEX_Studio221\cplex\bin\x64_win64\ILOG.Concert.dll</HintPath>
+      <HintPath>C:\Program Files\ILOG.Concert.dll</HintPath>
     </Reference>
     <Reference Include="ILOG.CPLEX">
-      <HintPath>C:\Program Files\IBM\ILOG\CPLEX_Studio221\cplex\bin\x64_win64\ILOG.CPLEX.dll</HintPath>
+      <HintPath>C:\Program Files\ILOG.CPLEX.dll</HintPath>
     </Reference>
   </ItemGroup>
 

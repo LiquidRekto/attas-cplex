@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
@@ -9,18 +9,24 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="FastExcel" Version="3.0.13" />
+    <PackageReference Include="Microsoft.Office.Interop.Excel" Version="15.0.4795.1001" />
   </ItemGroup>
 
   <ItemGroup>
     <Reference Include="ATTAS_CPLEX">
-      <HintPath>..\..\ATTAS_CPLEX\ATTAS_CPLEX\bin\Debug\net6.0\ATTAS_CPLEX.dll</HintPath>
+      <HintPath>..\ATTAS_CPLEX\bin\Debug\net6.0\ATTAS_CPLEX.dll</HintPath>
     </Reference>
     <Reference Include="ILOG.Concert">
-      <HintPath>C:\Program Files\IBM\ILOG\CPLEX_Studio221\cplex\bin\x64_win64\ILOG.Concert.dll</HintPath>
+      <HintPath>C:\Program Files\ILOG.Concert.dll</HintPath>
     </Reference>
     <Reference Include="ILOG.CPLEX">
-      <HintPath>C:\Program Files\IBM\ILOG\CPLEX_Studio221\cplex\bin\x64_win64\ILOG.CPLEX.dll</HintPath>
+      <HintPath>C:\Program Files\ILOG.CPLEX.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Vbe.Interop">
+      <HintPath>C:\Windows\assembly\GAC_MSIL\Microsoft.Vbe.Interop\15.0.0.0__71e9bce111e9429c\Microsoft.Vbe.Interop.dll</HintPath>
+    </Reference>
+    <Reference Include="office">
+      <HintPath>C:\Windows\assembly\GAC_MSIL\office\15.0.0.0__71e9bce111e9429c\OFFICE.DLL</HintPath>
     </Reference>
   </ItemGroup>
 

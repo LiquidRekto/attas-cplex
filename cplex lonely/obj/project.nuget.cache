@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "mnJbkpOtbfKKNwCWNYKur/ap43nlFlkOndhCpIcrKurwiw7Eh5MCpQraW+A7yCzY7EgZAjh7S4cG52aF1WWuBw==",
+  "dgSpecHash": "98JP03vlXM2ioqWcak3+8DNgh+tXkr6RIrzXGR26erBbaI4I0xwlVvRIH/ZE8F4Il1TskEiqPEb0s1KeSjzQbQ==",
   "success": true,
   "projectFilePath": "D:\\LAB DESK\\Test\\ATTAS_CPLEX\\cplex lonely\\cplex lonely.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Admin\\.nuget\\packages\\fastexcel\\3.0.13\\fastexcel.3.0.13.nupkg.sha512"
+    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.office.interop.excel\\15.0.4795.1001\\microsoft.office.interop.excel.15.0.4795.1001.nupkg.sha512"
   ],
   "logs": []
 }

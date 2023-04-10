@@ -26,13 +26,10 @@ D:\LAB DESK\Test\ATTAS_CPLEX\cplex lonely\bin\Debug\net6.0\cplex lonely.deps.jso
 D:\LAB DESK\Test\ATTAS_CPLEX\cplex lonely\bin\Debug\net6.0\cplex lonely.runtimeconfig.json
 D:\LAB DESK\Test\ATTAS_CPLEX\cplex lonely\bin\Debug\net6.0\cplex lonely.dll
 D:\LAB DESK\Test\ATTAS_CPLEX\cplex lonely\bin\Debug\net6.0\cplex lonely.pdb
-D:\LAB DESK\Test\ATTAS_CPLEX\cplex lonely\bin\Debug\net6.0\FastExcel.dll
 D:\LAB DESK\Test\ATTAS_CPLEX\cplex lonely\bin\Debug\net6.0\ATTAS_CPLEX.dll
 D:\LAB DESK\Test\ATTAS_CPLEX\cplex lonely\bin\Debug\net6.0\ILOG.Concert.dll
 D:\LAB DESK\Test\ATTAS_CPLEX\cplex lonely\bin\Debug\net6.0\ILOG.CPLEX.dll
 D:\LAB DESK\Test\ATTAS_CPLEX\cplex lonely\bin\Debug\net6.0\ATTAS_CPLEX.pdb
-D:\LAB DESK\Test\ATTAS_CPLEX\cplex lonely\bin\Debug\net6.0\ILOG.Concert.xml
-D:\LAB DESK\Test\ATTAS_CPLEX\cplex lonely\bin\Debug\net6.0\ILOG.CPLEX.xml
 D:\LAB DESK\Test\ATTAS_CPLEX\cplex lonely\obj\Debug\net6.0\cplex lonely.csproj.AssemblyReference.cache
 D:\LAB DESK\Test\ATTAS_CPLEX\cplex lonely\obj\Debug\net6.0\cplex lonely.GeneratedMSBuildEditorConfig.editorconfig
 D:\LAB DESK\Test\ATTAS_CPLEX\cplex lonely\obj\Debug\net6.0\cplex lonely.AssemblyInfoInputs.cache
@@ -44,3 +41,6 @@ D:\LAB DESK\Test\ATTAS_CPLEX\cplex lonely\obj\Debug\net6.0\refint\cplex lonely.d
 D:\LAB DESK\Test\ATTAS_CPLEX\cplex lonely\obj\Debug\net6.0\cplex lonely.pdb
 D:\LAB DESK\Test\ATTAS_CPLEX\cplex lonely\obj\Debug\net6.0\cplex lonely.genruntimeconfig.cache
 D:\LAB DESK\Test\ATTAS_CPLEX\cplex lonely\obj\Debug\net6.0\ref\cplex lonely.dll
+D:\LAB DESK\Test\ATTAS_CPLEX\cplex lonely\bin\Debug\net6.0\Microsoft.Office.Interop.Excel.dll
+D:\LAB DESK\Test\ATTAS_CPLEX\cplex lonely\bin\Debug\net6.0\Microsoft.Vbe.Interop.dll
+D:\LAB DESK\Test\ATTAS_CPLEX\cplex lonely\bin\Debug\net6.0\OFFICE.DLL

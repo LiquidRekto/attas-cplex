@@ -1,10 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7qIzZnLXx7a18khrJFSbL1Ht3h69N0NNdAffDZfeMUaE7Pn3kW8dIXbHjulicFB9jw7WVQqank4ZlW7tGCu0mg==",
+  "dgSpecHash": "Rlz75fxNSHY/dUg8hsaLJ8kPRPWiKnWCMghQo4TRR/tsp66JRks1asRdJqjlBNb/uwtY+Np6dBDClb4t+bx59A==",
   "success": true,
   "projectFilePath": "D:\\LAB DESK\\Test\\ATTAS_CPLEX\\ATTAS_CPLEX\\ATTAS_CPLEX.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\Admin\\.nuget\\packages\\fastexcel\\3.0.13\\fastexcel.3.0.13.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }
